@@ -4,7 +4,7 @@ import * as _ from 'lodash';
 export const handler: Handler = async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResultV2> => {
   const response = {
     statusCode: 200,
-    body: "Hello World!"
+    body: "Hello AWS!"
   };
   return response;
 };
